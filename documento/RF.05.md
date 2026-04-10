@@ -1,6 +1,9 @@
-#Gestão de Inventário e Status de Produção
+# Gestão de Inventário e Status de Produção
+
 **COMO** Administrador (Joalheiro),
+
 **QUERO** atualizar o status do pedido (Ex: "Em Produção", "Embalado", "Enviado")
+
 **PARA** que o cliente acompanhe a evolução da sua joia artesanal.
 
 **Critérios de Aceitação:**
