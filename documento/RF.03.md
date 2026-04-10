@@ -1,6 +1,9 @@
-#Guia Interativo de Medidas
+# Guia Interativo de Medidas
+
 **COMO** Cliente,
+
 **QUERO** utilizar uma calculadora ou guia de tamanhos no site
+
 **PARA** selecionar a numeração correta de anéis ou pulseiras e evitar trocas.
 
 **Critérios de Aceitação:**
