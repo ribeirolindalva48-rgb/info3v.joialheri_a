@@ -1,1 +1,4 @@
 # info3v.joialheri_a
+Na Bijou d'Or, acreditamos que uma joia é mais do que um acessório; é um fragmento de memória que atravessa gerações. Unimos a maestria da ourivesaria clássica ao design contemporâneo para criar peças que celebram a individualidade de quem as usa. Cada detalhe é lapidado com precisão, garantindo que a excelência seja o padrão de cada entrega
+É um projeto que nasce do desejo de transformar momentos comuns em memórias eternas. Estamos criando uma marca que une o design moderno à delicadeza do trabalho artesanal, focando em peças que combinam com quem você é.
+Acreditamos que uma joia não deve ficar guardada na caixa para ocasiões especiais. Ela deve fazer parte da sua história todos os dias. Por isso, estamos selecionando materiais de alta qualidade e desenvolvendo coleções que equilibram elegância e versatilidade.
