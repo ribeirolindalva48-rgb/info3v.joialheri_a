@@ -1,6 +1,8 @@
-#Emissão de Certificado de Autenticidade Digital
+# Emissão de Certificado de Autenticidade Digital
 **COMO** Cliente,
+
 **QUERO** receber um documento oficial que comprove a pureza dos materiais
+
 **PARA** ter garantia de valor e originalidade do produto adquirido.
 
 **Critérios de Aceitação:**
