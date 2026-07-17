@@ -1,51 +1,53 @@
 package br.edu.ifrn;
 
-import java.util.Arrays;
-
 import br.edu.ifrn.joialheria_a.modelo.Joia;
-import br.edu.ifrn.joialheria_a.modelo.Personalizacao;
-
 import br.edu.ifrn.joialheria_a.servico.JoiaServico;
-import br.edu.ifrn.joialheria_a.servico.PersonalizacaoServico;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Joia anel = new Joia(
-
-            "Anel de Ouro 18k",
-
-            Arrays.asList(
-                "anel_frente.jpg",
-                "anel_lateral.jpg"
-            ),
-
-            "Ouro 18k",
-            "Diamante",
-            5.5
-
-        );
-
         JoiaServico joiaService = new JoiaServico();
 
-        System.out.println("--- TESTE REQ.001 ---");
+        System.out.println("\n--- [C] - INSERINDO Joias no MySQL ---");
 
-        joiaService.cadastrarJoia(anel);
-        joiaService.ativarZoom();
+        Joia joia1 = new Joia(
+                "Anel Solitário",
+                "Ouro 18k",
+                "Diamante",
+                3.5
+        );
 
-        Personalizacao gravacao =
-            new Personalizacao(
-                "Brunna",
-                "Cursiva"
-            );
+        Joia joia2 = new Joia(
+                "Colar Luxo",
+                "Ouro Branco 18k",
+                "Esmeralda",
+                6.2
+        );
 
-        PersonalizacaoServico personalizacaoService =
-            new PersonalizacaoServico();
+        joiaService.salvarNovaJoia(joia1);
+        joiaService.salvarNovaJoia(joia2);
 
-        System.out.println("\n--- TESTE REQ.002 ---");
+        System.out.println("\n--- [R] - LISTANDO AS JOIAS ---");
+        joiaService.listarJoias().forEach(System.out::println);
 
-        personalizacaoService.validarGravacao(gravacao);
+        System.out.println("\n--- [U] - ATUALIZANDO UMA JOIA ---");
+
+        joia2.setPeso(7.0);
+
+        joiaService.atualizarJoia(joia2);
+
+        joiaService.listarJoias().forEach(System.out::println);
+
+        System.out.println("\n--- [D] - EXCLUINDO UMA JOIA ---");
+
+        joiaService.removerJoia(joia1.getId());
+
+        System.out.println("\nEstado final da tabela:");
+
+        joiaService.listarJoias().forEach(System.out::println);
 
     }
+
 }
+``
