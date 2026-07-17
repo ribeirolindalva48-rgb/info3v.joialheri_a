@@ -13,7 +13,6 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
          
-</project>
 
 <dependencies>
     <dependency>
@@ -22,3 +21,5 @@
         <version>9.1.0</version>
     </dependency>
 </dependencies>
+         
+</project>
